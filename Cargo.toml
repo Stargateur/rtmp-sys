@@ -1,0 +1,13 @@
+[package]
+name = "rtmp-sys"
+version = "0.1.0"
+authors = ["Stargateur <antoine.plaskowski@epitech.eu>"]
+description = "Bindings to the rtmp library."
+license = "MIT"
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.0"
+
+[build-dependencies]
+cmake = "0.1"
