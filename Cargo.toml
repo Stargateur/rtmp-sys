@@ -11,3 +11,4 @@ libc = "0.2.0"
 
 [build-dependencies]
 cmake = "0.1"
+git2 = "0.5"
